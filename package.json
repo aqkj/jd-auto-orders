@@ -1,0 +1,23 @@
+{
+  "name": "jd-auto-orders",
+  "version": "1.0.0",
+  "description": "京东自动下单爬虫",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.0",
+    "@types/puppeteer": "^2.0.0",
+    "puppeteer": "^2.0.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.5.1",
+    "nodemailer": "^6.4.2"
+  }
+}
